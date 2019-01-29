@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/bin"
+        android:title="Bin"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="Create"
+        android:icon="@drawable/ic_create"
+        android:id="@+id/item1"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
